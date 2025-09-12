@@ -1,5 +1,5 @@
 window.__ENV = {
-    SITE_TITLE: "Anime Virtual Friends",
+    SITE_TITLE: "Legends",
     X_HANDLE: "https://x.com/new",
     SITE_DESC: "A gentle app to reflect your mood with soothing anime vibes"
 };
