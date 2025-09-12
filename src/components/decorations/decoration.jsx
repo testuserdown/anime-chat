@@ -10,11 +10,14 @@ import { useNavigate } from "react-router-dom";
 // import required modules
 import { Pagination, Navigation, EffectCards } from "swiper/modules";
 
+const ENV = window.__ENV || {};
+const siteTitle = ENV.SITE_TITLE || "Anime Legends";
+
 export default function AISwiper() {
   const navigate = useNavigate();
   return (
     <div className="ai-swiper frame gradient-bg">
-      <h1 className="w100 df jcc chat-title">Anime Legends</h1>
+      <h1 className="w100 df jcc chat-title">{siteTitle}</h1>
       <h2 className="w100 df jcc">Select to talk to your favorite character</h2>
       <Swiper
         effect={"cards"}
